@@ -1,0 +1,132 @@
+/*------------------------------
+              前提
+-------------------------------*/
+body {
+  background-color: #fdfcea;
+  margin: 0;
+
+  font-family: 'Noto Sans JP',YuGothic,sans-serif;
+  line-height: 1;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+
+
+/*----------------------------------
+           共通クラス
+-------------------------------------*/
+.title h2 {
+  margin-top: 80px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.0em;
+  color: #c94216;
+  text-align: center;
+}
+.wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*----------------------------------
+                hero
+-----------------------------------*/
+#hero {
+  background-image: url(../img/twin/channels_profile.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#hero h1 {
+  color:white;
+  font-size: 2.5em;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 280px 0 20px 0;
+}
+
+
+
+/*-------------------------------------
+                 video
+-------------------------------------*/
+#video {
+  text-align: center;
+}
+iframe {
+  width: 200px;
+  height: 120px;
+}
+
+
+/*-------------------------------------
+                 profile
+---------------------------------------*/
+#profile {
+  background-color: #fff;
+  padding: 4% 0;
+}
+.profmain {
+  display: flex;
+  justify-content: center;
+}
+.profmain h3 {
+  color: #c94216;
+  /* font-size: 4.5em; */
+  font-size: 12.0vw;
+  margin: 0;
+}
+.profmain img {
+  width: 60%;
+}
+.nameandsns {
+  margin: auto 0;
+}
+.sns {
+  display: flex;
+  width: fit-content;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: 14px;
+  gap: 8px;
+}
+.sns img {
+  width: 4vw;
+}
+
+
+.profimgs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.profimgs img {
+  object-fit: cover;
+  width: 25%;
+  height: 100%;
+}
+.profdetail {
+  color: black;
+  padding: 0 5%;
+}
+
+/*----------------------------
+             footer
+------------------------------*/
+footer {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+footer p {
+  font-size: 0.5em;
+  margin: 0;
+
+}
